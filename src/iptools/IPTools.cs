@@ -173,7 +173,7 @@ namespace iptools {
 				data.push(global::maglev.MagLevString.fromString("iptools"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 25 "/my-component/src/iptools/IPTools.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "Method \'IPTools.SubnetMaskToCIDR\' has not yet been implemented. Please email support@mindpowered.dev", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'IPTools.SubnetMaskToCIDR\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 27 "/my-component/src/iptools/IPTools.hx"
 				return result;
@@ -211,7 +211,7 @@ namespace iptools {
 				data.push(global::maglev.MagLevString.fromString("iptools"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 36 "/my-component/src/iptools/IPTools.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "Method \'IPTools.CalcCIDR\' has not yet been implemented. Please email support@mindpowered.dev", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'IPTools.CalcCIDR\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 38 "/my-component/src/iptools/IPTools.hx"
 				return result;
@@ -249,7 +249,7 @@ namespace iptools {
 				data.push(global::maglev.MagLevString.fromString("iptools"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 47 "/my-component/src/iptools/IPTools.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "Method \'IPTools.IPToDecimal\' has not yet been implemented. Please email support@mindpowered.dev", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'IPTools.IPToDecimal\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 49 "/my-component/src/iptools/IPTools.hx"
 				return result;
@@ -287,7 +287,7 @@ namespace iptools {
 				data.push(global::maglev.MagLevString.fromString("iptools"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 58 "/my-component/src/iptools/IPTools.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "Method \'IPTools.IP4FromDecimal\' has not yet been implemented. Please email support@mindpowered.dev", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'IPTools.IP4FromDecimal\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 60 "/my-component/src/iptools/IPTools.hx"
 				return result;
@@ -325,7 +325,7 @@ namespace iptools {
 				data.push(global::maglev.MagLevString.fromString("iptools"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 69 "/my-component/src/iptools/IPTools.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "Method \'IPTools.IP6FromDecimal\' has not yet been implemented. Please email support@mindpowered.dev", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'IPTools.IP6FromDecimal\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 71 "/my-component/src/iptools/IPTools.hx"
 				return result;
@@ -363,7 +363,7 @@ namespace iptools {
 				data.push(global::maglev.MagLevString.fromString("iptools"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 80 "/my-component/src/iptools/IPTools.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "Method \'IPTools.IPv4ToIPv6\' has not yet been implemented. Please email support@mindpowered.dev", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'IPTools.IPv4ToIPv6\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 82 "/my-component/src/iptools/IPTools.hx"
 				return result;
@@ -401,7 +401,7 @@ namespace iptools {
 				data.push(global::maglev.MagLevString.fromString("iptools"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 91 "/my-component/src/iptools/IPTools.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "Method \'IPTools.ExpandIPv6\' has not yet been implemented. Please email support@mindpowered.dev", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'IPTools.ExpandIPv6\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 93 "/my-component/src/iptools/IPTools.hx"
 				return result;
@@ -439,7 +439,7 @@ namespace iptools {
 				data.push(global::maglev.MagLevString.fromString("iptools"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 102 "/my-component/src/iptools/IPTools.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "Method \'IPTools.CompressIPv6\' has not yet been implemented. Please email support@mindpowered.dev", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'IPTools.CompressIPv6\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 104 "/my-component/src/iptools/IPTools.hx"
 				return result;
