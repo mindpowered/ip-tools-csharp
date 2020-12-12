@@ -486,6 +486,8 @@ M System.Int64
 M System.Runtime.Remoting.IChannelInfo
 M haxe.CallStack
 M StringBuf
+M mindpowered.iptools.IPTools
+C mindpowered.iptools.IPTools
 end modules
 begin resources
 end resources

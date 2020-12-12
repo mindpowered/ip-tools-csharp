@@ -10,3 +10,4 @@ src\EnumValue.cs
 src\Type.cs
 src\UInt.cs
 src\iptools\IPTools.cs
+src\mindpowered\iptools\IPTools.cs

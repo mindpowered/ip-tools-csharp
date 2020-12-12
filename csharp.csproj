@@ -67,6 +67,8 @@
 	
     <Compile Include="src\iptools\IPTools.cs"/>
 	
+    <Compile Include="src\mindpowered\iptools\IPTools.cs"/>
+	
   </ItemGroup>
   
   <ItemGroup />
