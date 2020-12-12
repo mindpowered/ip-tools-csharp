@@ -3,9 +3,9 @@
 /debug-
 /unsafe-
 /warn:0
-/out:bin/csharp.dll
+/out:c:/builds/mindpowered/logic/ip-tools/build/vcs/csharp/bin/iptools.dll
 /target:library
-/reference:bin/maglev.dll
+/reference:c:/builds/mindpowered/logic/ip-tools/build/vcs/csharp/bin/maglev.dll
 src\EnumValue.cs
 src\Type.cs
 src\UInt.cs

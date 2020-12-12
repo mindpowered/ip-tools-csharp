@@ -1,4 +1,4 @@
-/builds/mindpowered/logic/ip-tools
+c:/builds/mindpowered/logic/ip-tools
 begin defines
 NET_20
 cs
