@@ -14,6 +14,11 @@ namespace mindpowered.iptools {
 
 	public class IPTools
 	{
+		public IPTools()
+		{
+			global::maglev.MagLev bus = global::maglev.MagLev.getInstance("default");
+			global::iptools.IPTools myinstance = new global::iptools.IPTools(bus);
+		}
 
 		/**
 		 * Convert a subnet mask to CIDR notation
