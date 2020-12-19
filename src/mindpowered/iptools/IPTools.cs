@@ -27,7 +27,7 @@ namespace mindpowered.iptools {
 		*/
 		public object SubnetMaskToCIDR(string subnet_mask)
 		{
-			global::maglev.MagLevOld mybus = global::maglev.MagLevOld.getInstance("default");
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(subnet_mask);
 			object ret = null;
@@ -44,7 +44,7 @@ namespace mindpowered.iptools {
 		*/
 		public object[] CalcCIDR(string ip_addr)
 		{
-			global::maglev.MagLevOld mybus = global::maglev.MagLevOld.getInstance("default");
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip_addr);
 			object[] ret = null;
@@ -61,7 +61,7 @@ namespace mindpowered.iptools {
 		*/
 		public string IPToDecimal(string ip_addr)
 		{
-			global::maglev.MagLevOld mybus = global::maglev.MagLevOld.getInstance("default");
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip_addr);
 			string ret = null;
@@ -78,7 +78,7 @@ namespace mindpowered.iptools {
 		*/
 		public string IP4FromDecimal(string ip4_number)
 		{
-			global::maglev.MagLevOld mybus = global::maglev.MagLevOld.getInstance("default");
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip4_number);
 			string ret = null;
@@ -95,7 +95,7 @@ namespace mindpowered.iptools {
 		*/
 		public string IP6FromDecimal(string ip6_number)
 		{
-			global::maglev.MagLevOld mybus = global::maglev.MagLevOld.getInstance("default");
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip6_number);
 			string ret = null;
@@ -112,7 +112,7 @@ namespace mindpowered.iptools {
 		*/
 		public object IPv4ToIPv6(string ip_addr)
 		{
-			global::maglev.MagLevOld mybus = global::maglev.MagLevOld.getInstance("default");
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip_addr);
 			object ret = null;
@@ -129,7 +129,7 @@ namespace mindpowered.iptools {
 		*/
 		public object ExpandIPv6(string ip6_addr)
 		{
-			global::maglev.MagLevOld mybus = global::maglev.MagLevOld.getInstance("default");
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip6_addr);
 			object ret = null;
@@ -146,7 +146,7 @@ namespace mindpowered.iptools {
 		*/
 		public object CompressIPv6(string ip6_addr)
 		{
-			global::maglev.MagLevOld mybus = global::maglev.MagLevOld.getInstance("default");
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip6_addr);
 			object ret = null;
