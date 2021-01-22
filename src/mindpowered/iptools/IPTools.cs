@@ -47,7 +47,7 @@ namespace mindpowered.iptools {
 			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip_addr);
-			object[] ret = null;
+			object[] ret = {};
 			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
 			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
 			mybus.call("IPTools.CalcCIDR", args, async_callback);
@@ -64,7 +64,7 @@ namespace mindpowered.iptools {
 			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip_addr);
-			string ret = null;
+			string ret = "";
 			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (string) async_ret; };
 			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
 			mybus.call("IPTools.IPToDecimal", args, async_callback);
@@ -81,7 +81,7 @@ namespace mindpowered.iptools {
 			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip4_number);
-			string ret = null;
+			string ret = "";
 			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (string) async_ret; };
 			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
 			mybus.call("IPTools.IP4FromDecimal", args, async_callback);
@@ -98,7 +98,7 @@ namespace mindpowered.iptools {
 			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
 			global::Array<object> args = new global::Array<object>();
 			args.push(ip6_number);
-			string ret = null;
+			string ret = "";
 			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (string) async_ret; };
 			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
 			mybus.call("IPTools.IP6FromDecimal", args, async_callback);
