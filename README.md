@@ -1,6 +1,9 @@
 
 iptools
 =======
+Tools for working with IP Addresses
+
+![Build Status](https://mindpowered.dev/assets/images/github-badges/build-passing.svg)
 
 Contents
 ========
@@ -45,7 +48,7 @@ nuget ...
 Add the following entry to your .csproj file:
 
 ```
-<PackageReference Include="mindpowered.iptools" Version="0.0.13" />
+<PackageReference Include="mindpowered.iptools" Version="0.0.14" />
 ```
 
 
