@@ -9,6 +9,7 @@ Contents
 * [Licensing](#licensing)
 * [Requirements](#requirements)
 * [Installation](#installation)
+* [Usage](#usage)
 * [Support](#support)
 
 # Source Code and Documentation
@@ -44,7 +45,16 @@ nuget ...
 Add the following entry to your .csproj file:
 
 ```
-<PackageReference Include="mindpowered.iptools" Version="0.0.12" />
+<PackageReference Include="mindpowered.iptools" Version="0.0.13" />
+```
+
+
+# Usage
+
+```csharp
+global::mindpowered.iptools.IPTools ipt = new global::mindpowered.iptools.IPTools();
+string decimal = ipt.IPToDecimal("192.168.1.1");
+
 ```
 
 
@@ -52,12 +62,11 @@ Add the following entry to your .csproj file:
 We are here to support using this package. If it doesn't do what you're looking for, isn't working, or you just need help, please [Contact us][contact].
 
 There is also a public [Issue Tracker][bugs] available for this package.
-  
-  
-![Documentation - CSHARP README - ip-tools](https://www.google-analytics.com/collect?v=1&tid=UA-178768904-1&cid=555&aip=1&t=event&ec=Documentation&ea=CSHARP+README&el=ip-tools)
+
 
 
 [bugs]: https://github.com/mindpowered/ip-tools-csharp/issues
 [contact]: https://mindpowered.dev/support.html?ref=ip-tools-csharp/
+[docs]: https://mindpowered.github.io/ip-tools-csharp/
 [licensing]: https://mindpowered.dev/?ref=ip-tools-csharp
 [purchase]: https://mindpowered.dev/purchase/ip-tools-csharp
